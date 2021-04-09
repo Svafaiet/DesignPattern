@@ -1,7 +1,5 @@
 
-import Bridge.Multiplier;
-import Bridge.MultiplierFor;
-import Bridge.MultiplierNorm;
+import Bridge.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
