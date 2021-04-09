@@ -1,3 +1,5 @@
+package Decorator;
+
 public abstract class BeverageDecorator extends Beverage{
     protected final Beverage beverage;
 

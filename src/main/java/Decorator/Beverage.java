@@ -1,3 +1,5 @@
+package Decorator;
+
 public abstract class Beverage {
     protected final String name;
     protected Beverage(String name) {

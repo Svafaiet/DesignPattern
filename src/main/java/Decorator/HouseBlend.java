@@ -1,6 +1,8 @@
+package Decorator;
+
 public class HouseBlend extends Beverage{
     public HouseBlend(){
-        super("HouseBlend");
+        super("Decorator.HouseBlend");
     }
 
     @Override

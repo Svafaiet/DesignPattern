@@ -1,5 +1,7 @@
+package Decorator;
+
 public class Espresso extends Beverage {
-    public Espresso() { super("Espresso"); }
+    public Espresso() { super("Decorator.Espresso"); }
 
     @Override
     public double cost() { return 1.99; }

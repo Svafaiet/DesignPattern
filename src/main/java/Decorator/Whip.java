@@ -1,5 +1,7 @@
-public class SteamedMilk extends BeverageDecorator{
-    public SteamedMilk(Beverage beverage) {
+package Decorator;
+
+public class Whip extends BeverageDecorator{
+    public Whip(Beverage beverage) {
         super(beverage);
     }
 
@@ -8,6 +10,6 @@ public class SteamedMilk extends BeverageDecorator{
 
     @Override
     public String getDescription() {
-        return getBeverage().getDescription() + " with milk";
+        return getBeverage().getDescription() + " with whip";
     }
 }
