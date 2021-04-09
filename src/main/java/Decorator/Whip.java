@@ -6,7 +6,7 @@ public class Whip extends BeverageDecorator{
     }
 
     @Override
-    public double cost() { return getBeverage().cost() + 0.1;}
+    public double getCost() { return getBeverage().getCost() + 0.1;}
 
     @Override
     public String getDescription() {

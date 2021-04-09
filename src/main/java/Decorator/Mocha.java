@@ -6,7 +6,7 @@ public class Mocha extends BeverageDecorator{
     }
 
     @Override
-    public double cost() { return getBeverage().cost() + 0.2;}
+    public double getCost() { return getBeverage().getCost() + 0.2;}
 
     @Override
     public String getDescription() {
