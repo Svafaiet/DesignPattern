@@ -2,7 +2,7 @@ package Decorator;
 
 public class HouseBlend extends Beverage{
     public HouseBlend(){
-        super("Decorator.HouseBlend");
+        super("HouseBlend");
     }
 
     @Override
